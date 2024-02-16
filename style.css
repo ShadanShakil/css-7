@@ -1,0 +1,79 @@
+#logo {
+    color: white !important;
+}
+
+#nav-cont>button {
+    color: blue;
+}
+
+.btn-outline-light {
+    border: none !important;
+    border-radius: 25px;
+}
+
+#heading>h1 {
+    font-size: 4rem;
+}
+
+#heading>h3 {
+    font-size: 2rem;
+}
+
+#inputs {
+    position: relative;
+    top: 25px;
+}
+
+#inputs>input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(192, 138, 0) !important;
+}
+
+#permission {
+    font-size: 1.5rem;
+}
+
+#permission>input {
+    width: 20px;
+    height: 20px;
+}
+
+#bg-img {
+    background-image: url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/293799350.jpeg?k=8a6f4e24c37096fbdcd3c3d30c9f3dcea15ce35751448466decf791918012a64&amp;o=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+
+#promo>span>input {
+    width: 350px;
+    height: 50px;
+}
+
+#promo>span>button {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 157, 255);
+}
+
+footer {
+    margin-bottom: -17px;
+}
+
+@media (max-width: 576px) {
+    #logo {
+        width: 100% !important;
+    }
+
+    #inputs {
+        position: relative;
+        top: 0px;
+    }
+}
